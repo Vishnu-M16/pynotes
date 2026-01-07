@@ -4,13 +4,13 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>title - Your Name</title>
+    <title>My Python Notes - Your Name</title>
 
-    <link rel="stylesheet" href="https://tactlabs.github.io/sigpy/theme/css/normalize.css" />
-    <link rel="stylesheet" href="https://tactlabs.github.io/sigpy/theme/css/foundation.min.css" />
-    <link rel="stylesheet" href="https://tactlabs.github.io/sigpy/theme/css/style.css" />
-    <link rel="stylesheet" href="https://tactlabs.github.io/sigpy/theme/css/pygments.css" />	
-    <script src="https://tactlabs.github.io/sigpy/theme/js/modernizr.js"></script>
+    <link rel="stylesheet" href="https://vishnum-tn.github.io/pynotes/theme/css/normalize.css" />
+    <link rel="stylesheet" href="https://vishnum-tn.github.io/pynotes/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="https://vishnum-tn.github.io/pynotes/theme/css/style.css" />
+    <link rel="stylesheet" href="https://vishnum-tn.github.io/pynotes/theme/css/pygments.css" />	
+    <script src="https://vishnum-tn.github.io/pynotes/theme/js/modernizr.js"></script>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 <div class="top-bar">
 <div class="row">
     <div class="large-9 large-centered columns">
-	    <h1><a href="https://tactlabs.github.io/sigpy">title</a></h1>
+	    <h1><a href="https://vishnum-tn.github.io/pynotes">My Python Notes</a></h1>
     </div>
 </div>
 </div>
@@ -46,13 +46,44 @@
         
 
             <article>
-                <a href="https://tactlabs.github.io/sigpy/add-a-new-column.html"><h3 class="article-title">Add-A-New-Column</h3></a>
-<h6 class="subheader" title="2024-11-16T00:00:00-05:00">Sat 16 November 2024
+                <a href="https://vishnum-tn.github.io/pynotes/add.html"><h3 class="article-title">Add</h3></a>
+<h6 class="subheader" title="2026-01-08T00:00:00-05:00">Thu 08 January 2026
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;h&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>h
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+
+<hr>
+<p><strong>Score: 0</strong></p><p class="subheader">Category: <a href="https://vishnum-tn.github.io/pynotes/category/math.html">math</a>
+
+</p>
+
+
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
+                <a href="https://vishnum-tn.github.io/pynotes/add-a-new-column.html"><h3 class="article-title">Add-A-New-Column</h3></a>
+<h6 class="subheader" title="2026-01-08T00:00:00-05:00">Thu 08 January 2026
 </h6>
 
 
 <p>Add a New Column</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 </code></pre></div>
 
 <div class="highlight"><pre><span></span><code><span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
@@ -89,119 +120,29 @@
         vertical-align: top;
     }
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>city</th>
-      <th>points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Toronto</td>
-      <td>80</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Montreal</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Waterloo</td>
-      <td>90</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div class="highlight"><pre><span></span><code><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">code</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
-</code></pre></div>
-
-<div class="highlight"><pre><span></span><code><span class="n">df</span>
-</code></pre></div>
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>city</th>
-      <th>points</th>
-      <th>code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Toronto</td>
-      <td>80</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Montreal</td>
-      <td>70</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Waterloo</td>
-      <td>90</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div class="highlight"><pre><span></span><code>
-</code></pre></div>
-
-<hr>
-<p><strong>Score: 10</strong></p><p class="subheader">Category: <a href="https://tactlabs.github.io/sigpy/category/pandas-work.html">pandas-work</a>
+    .dataframe thead th …</style></div><p class="subheader">Category: <a href="https://vishnum-tn.github.io/pynotes/category/pandas-work.html">pandas-work</a>
 
 </p>
 
 
 
-            </article>
-
-
+                <a class="button radius secondary small right" href="https://vishnum-tn.github.io/pynotes/add-a-new-column.html">Read More</a>
                 <hr  class="gradient"/>
-
+            </article>
 
         
 
 
             <article>
-                <a href="https://tactlabs.github.io/sigpy/age-calculator.html"><h3 class="article-title">Age-Calculator</h3></a>
-<h6 class="subheader" title="2024-11-16T00:00:00-05:00">Sat 16 November 2024
+                <a href="https://vishnum-tn.github.io/pynotes/age-calculator.html"><h3 class="article-title">Age-Calculator</h3></a>
+<h6 class="subheader" title="2026-01-08T00:00:00-05:00">Thu 08 January 2026
 </h6>
 
 
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span>
 </code></pre></div>
 
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_age</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_age</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
     <span class="n">d1</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
     <span class="n">months</span> <span class="o">=</span> <span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="n">d</span><span class="o">.</span><span class="n">year</span><span class="p">)</span> <span class="o">*</span> <span class="mi">12</span> <span class="o">+</span> <span class="n">d1</span><span class="o">.</span><span class="n">month</span> <span class="o">-</span> <span class="n">d</span><span class="o">.</span><span class="n">month</span>
 
@@ -222,13 +163,13 @@
 </code></pre></div>
 
 <hr>
-<p><strong>Score: 5</strong></p><p class="subheader">Category: <a href="https://tactlabs.github.io/sigpy/category/basics.html">basics</a>
+<p><strong>Score: 5</strong></p><p class="subheader">Category: <a href="https://vishnum-tn.github.io/pynotes/category/basics.html">basics</a>
 
 </p>
 
 
 
-                <a class="button radius secondary small right" href="https://tactlabs.github.io/sigpy/age-calculator.html">Read More</a>
+                <a class="button radius secondary small right" href="https://vishnum-tn.github.io/pynotes/age-calculator.html">Read More</a>
                 <hr  class="gradient"/>
             </article>
 
@@ -248,23 +189,24 @@
     <aside class="large-3 columns">
         <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
-            <li><a href="https://tactlabs.github.io/sigpy/archives.html">Archives</a>
-            <li><a href="https://tactlabs.github.io/sigpy/tags.html">Tags</a>
+            <li><a href="https://vishnum-tn.github.io/pynotes/archives.html">Archives</a>
+            <li><a href="https://vishnum-tn.github.io/pynotes/tags.html">Tags</a>
         </ul>
 
 		
         <h5 class="sidebar-title">Categories</h5>
         <ul class="side-nav">
-            <li><a href="https://tactlabs.github.io/sigpy/category/basics.html">basics</a></li>
-            <li><a href="https://tactlabs.github.io/sigpy/category/pandas-work.html">pandas-work</a></li>
+            <li><a href="https://vishnum-tn.github.io/pynotes/category/basics.html">basics</a></li>
+            <li><a href="https://vishnum-tn.github.io/pynotes/category/math.html">math</a></li>
+            <li><a href="https://vishnum-tn.github.io/pynotes/category/pandas-work.html">pandas-work</a></li>
    
         </ul>
 
 		
         <h5 class="sidebar-title">Social</h5>
         <ul class="side-nav">
-            <li><a href="https://github.com/<yourusername>/">GitHub</a></li>
-            <li><a href="<linkedin handle>">LinkedIn</a></li>
+            <li><a href="https://github.com/vishnum-tn">GitHub</a></li>
+            <li><a href="linkedin.com/in/vishnumsofficial">LinkedIn</a></li>
         </ul>
 
     </aside> <!-- End Sidebar -->
@@ -278,7 +220,7 @@
         <hr />
         <div class="row">
             <div class="large-6 columns">
-              <!--                  <p>title by <your name></p> -->
+              <!--                  <p>My Python Notes by Vishnu</p> -->
             </div>
             </div>
     </div>
